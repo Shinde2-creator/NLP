@@ -1,2 +1,3 @@
 # NLP
 NLP Workloads using Python
+I chose TF-IDF Vectorization as the feature representation technique because it effectively balances word frequency with importance by downweighting commonly occurring words while highlighting more informative words. This helps the model focus on words that are more relevant for sentiment analysis, such as 'excellent', 'boring', 'amazing', and 'terrible', which are crucial for distinguishing positive and negative reviews. Additionally, limiting the features to the top 5000 words helps in reducing noise and improving model efficiency by avoiding the curse of dimensionality. TF-IDF is also a widely used and effective method for text classification tasks, making it a suitable choice for this sentiment analysis project.
